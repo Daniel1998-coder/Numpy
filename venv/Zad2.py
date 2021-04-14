@@ -1,6 +1,5 @@
 import numpy as np
-a=np.arange(1,2,0.1)
+a = np.arange(2, dtype="float")
 print(a)
-print(a.dtype)
-b=a.astype('int32')
-print(b.dtype)
+b = a.astype("int32")
+print(b)

@@ -1,5 +1,5 @@
 import numpy as np
-a=2
-b=4
-c=np.logspace()
-print(c)
+def a(b, c):
+     y = [b**x for x in range(1, c+1)]
+     return y
+print(a(2,5))
